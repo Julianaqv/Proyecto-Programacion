@@ -32,12 +32,16 @@ def Menu_Principal(ruta_archivo):
         option = input("Digite una opción: ")
 
         if option == "1":
+            limpiar()
             Crear_Registro(ruta_archivo)
         elif option == "2":
+            limpiar()
             Modificar_Registro(ruta_archivo)
         elif option == "3":
+            limpiar()
             Consultar_Registro(ruta_archivo)
         elif option == "4":
+            limpiar()
             Eliminar_Registro(ruta_archivo)
         elif option == "0":
             print("Saliendo del programa...")
